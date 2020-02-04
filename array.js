@@ -42,3 +42,34 @@ console.log(x.split(''));
 
 x = 'hello world how are you?';
 console.log(x.split(' '));
+
+mobile_number = ['+44', '9234', '34', '567'];
+console.log(mobile_number.slice(0,3).join('-'));
+
+x = [1, 2, 3];
+new_array = mobile_number.concat(x);
+console.log(new_array);
+
+y = [1, 2, 3] + [9, 8, 7];
+console.log(y);
+
+console.log(mobile_number.sort());
+
+number = [100, 9, 4, 12, 6, 5];
+console.log(number);
+
+console.log(number.sort());
+
+strings = ['def', 'abc', 'rst', 'xyz', 'asd'];
+console.log(strings.sort());
+
+mix_array = strings.concat(number);
+console.log(mix_array);
+console.log(mix_array.sort());
+
+a = [1, 2, 3, 4, 500, 2, 1, 999];
+console.log(a.indexOf(1000));
+
+console.log(a.indexOf(1, 2));
+
+console.log(a.reverse());

@@ -38,6 +38,8 @@ console.log(x.slice(4));
 z = x.slice(0, 3) + 'o' + x.slice(4)
 console.log(z);
 
+x = 'hello';
+console.log(x.split(''));
 
 // [vipin@localhost javascript-practise]$ node 
 // > x = 'world'
