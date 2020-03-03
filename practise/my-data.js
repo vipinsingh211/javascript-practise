@@ -37,3 +37,4 @@ standard_input.on('data', function (name) {
         }
     }
 });
+// console.log('the end');
