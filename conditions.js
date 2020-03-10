@@ -85,7 +85,7 @@ console.log(day);
 // ternary operators
 name = 'vipin';
 
-is_correct_name = name === 'vipi' ? 'yes' : 'no';
+is_correct_name = name === 'vipin' ? 'yes' : 'no';
 console.log(is_correct_name);
 
 // > 100 == '100'
